@@ -1,38 +1,173 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-end;
+}
+ .links{
+  display: flex;
+  flex-direction: row;
+padding-left: 65%;
+ 
+ }
+
+ #about-me{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+ right: 18%;
+ }
+
+ #portfolio{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+ right: 12%;
+ }
+
+ #contat{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+ right: 6%;
+ }
+
+ h2{
+  
+  text-align: center;
+ }
+
+ #about-me-paragarph{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 18%;
+ }
+
+
+
+ #resume-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+ }
+
+ #contact-form{
+  display: flex;
+  flex-direction: column;
+  position:relative;
+ text-align: center;
+ padding-top: 5%;
+padding-left: 40%;
+padding-right: 40%;
+height: 50vh ;
 }
 
-.App-link {
-  color: #61dafb;
+#text-area{
+height: 30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.pimage{
+height: 15vh;
+width: 15vw;
+margin: 1%;
+
+}
+
+.portfolilo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#port{
+  padding-top: 7%;
+}
+
+#Avatar{
+  height: 30vh;
+
+}
+
+#ABM{
+display: flex;
+ 
+}
+
+#footer{
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+@media only screen and (min-width: 600px) {
+.links{
+  display: flexbox;
+
+  #Avatar{
+    height: 5vh;
+  
   }
-  to {
-    transform: rotate(360deg);
+}
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .links{
+    display: flexbox;
   }
+    #Avatar{
+      height: 20vh;
+      width:40lvw;
+      align-items: center;
+      
+      
+    }
+    #about-me-paragarph{
+
+       
+  
+     }
+
+     #ABM{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             padding-bottom: 7%;
+      }
+    
+      .header{
+        display: flex;
+        flex-direction: column;
+        
+      }
+
+      .links{
+        display: flex;
+        flex-direction: row;
+      
+       
+       }
+
+       #footer{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+        
+      }
+
+      #GH{
+        padding-right: 7%;
+      }
+
+      #Li{
+        padding-left: 7%;
+      }
 }
