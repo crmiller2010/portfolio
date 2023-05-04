@@ -6,7 +6,7 @@ const AboutMe=()=>{
     <div>
         <h2>About Me</h2>
         <div id="ABM">
-            <img id="Avatar" src ="../public/ReadyPlayerMe-Avatar.png"></img>
+            <img id="Avatar" src ="./portfolio/ReadyPlayerMe-Avatar.png"></img>
             <p id="about-me-paragarph">Hi my name is Chris Miller, I am a bootcamp student at the University of Wisconsin.<br></br>
                                 My area of study has been full stack web development. I Have been in manuefactureing for <br></br>
                                 the past 6 years and some of my transferable skills include diagnostics, production flow, <br></br>
